@@ -16,6 +16,16 @@ background: linear-gradient(180deg, rgba(203,189,124,1) 0%, rgba(255,242,181,1) 
   color:#fff8eb;
 }
 
+.banner {
+  background-image: url('banner.png');
+  color:#fff8eb;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 .gitsvg, .foldersvg, .scratchsvg {
   fill: #fff8eb;
 }
@@ -60,10 +70,12 @@ h1 {
   background: linear-gradient(0deg, #c97100 0%, #ff9814 12%, #ffdc45 50%, #fff100 100%);
   padding:20px;
   color:#9f7321;
-  max-width: fit-content;
+  font-family: 'Young Serif', serif;
   text-decoration:none;
   border-radius:10px;
   font-size:24px;
+  text-wrap: ;
+  max-width: 300px;
 }
 
 .button:hover {
@@ -73,6 +85,7 @@ h1 {
 }
 
 nav ul {
+  font-family: 'Young Serif', serif;
   list-style: none;
   padding-left: 0;
   margin: 0;
