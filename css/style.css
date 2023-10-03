@@ -12,7 +12,7 @@ body {
   color:#f5b134;
 }
 
-.gitsvg, .foldersvg {
+.gitsvg, .foldersvg, .scratchsvg {
   fill: #9f7321;
 }
 
@@ -97,7 +97,13 @@ footer {
   padding: 5rem;
 }
 
-footer ol {
+iframe {
+  padding-bottom: 10rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.ol {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -108,3 +114,39 @@ footer ol {
   
 }
 
+.card {
+  border-radius: 15px;
+  padding: 1rem;
+  max-width: 300px;
+
+  box-shadow: 0 4px 20px 0 rgba(60, 44, 79, 0.378);
+  background-color: #fffde5;
+}
+
+/* The tag that makes the card clickable */
+
+a {
+  text-decoration: none;
+
+  color: #514e73;
+}
+
+/* Image & hover state */
+
+
+
+.card:hover {
+  object-fit: contain;
+  
+  background-color: #483064;
+  color: #bca2d8;
+}
+
+article {
+  padding-top: 5rem;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
