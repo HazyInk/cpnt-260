@@ -1,19 +1,23 @@
 body {
   margin:0px;
   padding:0px;
+
+  background: rgb(203,189,124);
+background: linear-gradient(180deg, rgba(203,189,124,1) 0%, rgba(255,242,181,1) 12%, rgba(255,243,186,1) 20%, rgba(255,246,205,1) 48%, rgba(255,254,243,1) 84%, rgba(246,239,202,1) 100%);
 }
 .hero{
-    background-color: #ffe6b8;
+  background: url(background.png);
+  
 
   background-size:cover;
   background-position:center;
   text-align:center;
   padding:100px;
-  color:#f5b134;
+  color:#fff8eb;
 }
 
 .gitsvg, .foldersvg, .scratchsvg {
-  fill: #9f7321;
+  fill: #fff8eb;
 }
 
 img {
@@ -50,7 +54,10 @@ h1 {
   margin-inline:auto;
 }
 .button{
-  background-color:#f5b134;
+  border-radius: 10px;
+  border-style: groove;
+  background: #c97100;
+  background: linear-gradient(0deg, #c97100 0%, #ff9814 12%, #ffdc45 50%, #fff100 100%);
   padding:20px;
   color:#9f7321;
   max-width: fit-content;
@@ -60,8 +67,9 @@ h1 {
 }
 
 .button:hover {
-  background-color: #ed8748;
-  color: #ffc099;
+  background: #c97100;
+  background: linear-gradient(180deg, #c97100 0%, #ff9814 12%, #ffdc45 48%, #fff100 82%);
+  color: #ffffff;
 }
 
 nav ul {
@@ -74,7 +82,8 @@ nav ul {
   align-items: center;
   flex-wrap: wrap;
 
-  background-color: #edb348;
+  background: #c97100;
+  background: linear-gradient(0deg, #c97100 0%, #ff9814 12%, #ffdc45 50%, #fff100 100%);
 }
 
 nav a {
@@ -83,7 +92,7 @@ nav a {
   display: block;
   padding: 0.5rem 1rem;
 
-  color: #fff0d4;
+  color: #9f7321;
 }
 
 nav a:hover {
@@ -93,7 +102,9 @@ nav a:hover {
 }
 
 footer {
-  background-color: #ffe6b8;
+  background-image: url('background.png');
+background-color: #ffdc45;
+
   padding: 5rem;
 }
 
