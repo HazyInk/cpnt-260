@@ -74,7 +74,6 @@ h1 {
   text-decoration:none;
   border-radius:10px;
   font-size:24px;
-  text-wrap: ;
   max-width: 300px;
 }
 
@@ -110,8 +109,7 @@ nav a {
 
 nav a:hover {
   border-radius: 20px;
-  background-color: #ed8748;
-  color: #ffc099;
+  color: #fff8f3;
 }
 
 footer {
