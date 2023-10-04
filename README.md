@@ -11,5 +11,6 @@
       - For the paragraphs [Montserrat](https://fonts.google.com/specimen/Montserrat)
   - Gradient code referenced from [codepen](https://codepen.io/)
   - Button code referenced from class "Call to action" activity
+  - Navbar referenced from the "Horizontal nav bar" activity
   - Cards referenced from the "Single card" assignment
   - Iframe referenced from october 1st's class
