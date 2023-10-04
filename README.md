@@ -5,6 +5,7 @@
 ### Attributions
 [Full-page Layout]([https://hazyink.github.io/cpnt260-a2/](https://hazyink.github.io/cpnt260-a4/))
   - Author [Reilly Wooldridge](https://github.com/HazyInk)
+  - Above and beyond "add a social navigation menu in the footer" can be found on line 137
   - Icon, banner, footer and hero section Image by [Reilly Wooldridge](https://github.com/HazyInk)
   - [Googlefonts](https://fonts.google.com/)
       - For the headings [Young Serif](https://fonts.google.com/specimen/Young+Serif)
