@@ -37,6 +37,10 @@ background: linear-gradient(180deg, rgba(203,189,124,1) 0%, rgba(255,242,181,1) 
 }
 
 nav ul {
+  overflow: hidden;
+  background-color: #111;
+  position: relative;
+
   list-style: none;
 
   background: #c97100;
@@ -92,8 +96,6 @@ a {
 }
 
 /* Image & hover state */
-
-
 
 .card:hover {
   background-color: #7c52ad;
